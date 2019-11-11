@@ -5,6 +5,7 @@ module.exports = {
 	url: 'https://portfolio.smakosh.com',
 	legalName: 'Hai DV',
 	defaultDescription: 'I’m HaiDV - Backend & Devops engineer!',
+	blogUrl: "https://blog.haidv.me",
 	socialLinks: {
 		twitter: 'http://www.twitter.com/smakosh',
 		github: 'https://github.com/GeminiWind',
