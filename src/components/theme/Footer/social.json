@@ -9,7 +9,7 @@
     "id": 1,
     "name": "Github",
     "link": "https://github.com/GeminiWind",
-    "icon": "/icons/github.svg"
+    "icon": "../../assets/icons/github.svg"
   },
   {
     "id": 2,
