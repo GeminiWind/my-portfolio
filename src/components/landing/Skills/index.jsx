@@ -1,6 +1,5 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container, Button } from 'components/common'
+import { Container } from 'components/common'
 import dev from 'assets/illustrations/skills.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
@@ -11,13 +10,13 @@ export const Skills = () => (
 				<img src={dev} alt="I’m HaiDV - Backend & Devops engineer!" />
 			</Thumbnail>
 			<Details>
-				<h1>Hi There!</h1>
+				<h1>About Me</h1>
 				<p>
-          Self-studying, concentrating & team-working are my most strong characteristics
+          			Hi! I am a little boy with a big passionate in making software product, especially in building & discovering sophisticated architecture of large business
 				</p>
-				<Button as={AnchorLink} href="#contact">
-          Contact me
-				</Button>
+				<p>
+          			Now, I'm on the way going to be Javascript full-stack developer, with focus in Node & React. My expertise is in automation, optimization and security.
+				</p>
 			</Details>
 		</SkillsWrapper>
 	</Wrapper>

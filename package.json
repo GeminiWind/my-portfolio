@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "my-portofio",
   "private": true,
-  "description": "A simple portfolio for developers",
+  "description": "A simple portfolio",
   "version": "0.1.2",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "GeminiWind <gemini.wind285@gmail.com>",
   "dependencies": {
     "dotenv": "^6.2.0",
     "formik": "^1.4.1",
@@ -58,9 +58,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "git@github.com:GeminiWind/my-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/GeminiWind/my-portfolio"
   }
 }

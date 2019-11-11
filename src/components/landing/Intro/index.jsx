@@ -10,9 +10,8 @@ export const Intro = () => (
 		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>Hi There!</h1>
+				<h1>Hi  <span aria-label="wave" role="img">👋</span>!</h1>
 				<h4>I’m HaiDV - Backend & Devops engineer!</h4>
-				<h4>I'm passionate with building & discovering sophisticated architecture of large business.</h4>
 				<Button as={AnchorLink} href="#contact">
 					Contact me 
 				</Button>

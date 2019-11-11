@@ -1,7 +1,3 @@
-import styled from 'styled-components'
+import Card from './Card';
 
-export const Card = styled.div`
-	padding: 1rem;
-	background: #fff;
-	height: 100%;
-`
+export default Card;
