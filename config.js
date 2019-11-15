@@ -31,6 +31,6 @@ module.exports = {
 		email: 'gemini.wind285@gmail.com',
 		phone: '0333451995',
 	},
-	foundingDate: '2018',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
+	foundingDate: '2019',
+	recaptcha_key: '6LcR2sIUAAAAAJWfiqOxoMz262VWMHrwbBNqqlOM'
 }
