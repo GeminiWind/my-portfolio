@@ -2,6 +2,8 @@ import React from 'react'
 import { Container } from 'components/common'
 import { Wrapper, Flex, Links, Details } from './styles'
 import social from './social.json'
+import GithubIcon from '../../../assets/icons/github.svg'
+import TelegramIcon from '../../../assets/icons/telegram.svg'
 
 export const Footer = () => (
 	<Wrapper>
@@ -9,18 +11,7 @@ export const Footer = () => (
 			<Details>
 				<h2>Hai DV</h2>
 				<span>
-					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
-					<span aria-label="love" role="img">
-						💖
-					</span>{' '}
-					by{' '}
-					<a
-						href="https://smakosh.com/?ref=portfolio-dev"
-						rel="noopener noreferrer"
-						target="_blank"
-					>
-						Smakosh
-					</a>
+					© All rights are reserved | {new Date().getFullYear()}
 				</span>
 			</Details>
 			<Links>
@@ -32,7 +23,8 @@ export const Footer = () => (
 						rel="noopener noreferrer"
 						aria-label={`follow me on ${name}`}
 					>
-						<img width="24" src={icon} alt={name} />
+						{name === 'Telegram' && <img width="24" src={TelegramIcon} alt={name} />}
+						{name === 'Github' && <img width="24" src={GithubIcon} alt={name} />}
 					</a>
 				))}
 			</Links>
