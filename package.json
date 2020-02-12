@@ -42,7 +42,8 @@
     "start": "gatsby develop -o",
     "format": "prettier --write \"src/**/*.js\"",
     "reset": "rm -rf .cache/ public/",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "lint": "eslint src/**/*.js"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
