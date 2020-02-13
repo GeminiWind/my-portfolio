@@ -69,6 +69,19 @@ export const Projects = () => {
 						</Card>
 					</Item>
 				))}
+				<Item
+					key="more-repos"
+					as="a"
+					href="https://github.com/GeminiWind?tab=repositories"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Card>
+						<Content>
+							<h4>More repositories ...</h4>
+						</Content>
+					</Card>
+				</Item>
 			</Grid>
 		</Wrapper>
 	)

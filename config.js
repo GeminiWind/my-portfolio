@@ -1,8 +1,8 @@
 module.exports = {
 	defaultTitle: 'Hai DV',
-	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+	logo: 'https://haidv.me/favicon/favicon.ico',
 	author: 'Hai DV',
-	url: 'https://portfolio.smakosh.com',
+	url: 'https://haidv.me/',
 	legalName: 'Hai DV',
 	defaultDescription: 'I’m HaiDV - Backend & Devops engineer!',
 	blogUrl: "https://blog.haidv.me",
