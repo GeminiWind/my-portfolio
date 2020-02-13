@@ -4,6 +4,13 @@ import { Wrapper, Flex, Links, Details } from './styles'
 import social from './social.json'
 import GithubIcon from '../../../assets/icons/github.svg'
 import TelegramIcon from '../../../assets/icons/telegram.svg'
+import LinkedinIcon from '../../../assets/icons/linkedin.svg'
+
+const iconMapping = {
+	'Telegram': TelegramIcon,
+	'Github': GithubIcon,
+	'Linkedin': LinkedinIcon
+}
 
 export const Footer = () => (
 	<Wrapper>
@@ -23,8 +30,7 @@ export const Footer = () => (
 						rel="noopener noreferrer"
 						aria-label={`follow me on ${name}`}
 					>
-						{name === 'Telegram' && <img width="24" src={TelegramIcon} alt={name} />}
-						{name === 'Github' && <img width="24" src={GithubIcon} alt={name} />}
+						<img width="24" src={iconMapping[name]} alt={name} />
 					</a>
 				))}
 			</Links>
